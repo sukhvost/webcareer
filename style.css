@@ -1,5 +1,3 @@
-@import url("css/normalize.css");
-
 *,
 *::before,
 *::after {
@@ -7,8 +5,65 @@
 	-moz-box-sizing: border-box;
 	box-sizing: border-box;
 }
-.clearfix::after {
-    content: "";
-    display: table;
-    clear: both;
+html {
+    font-size: 100%;
+}
+body {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    font-size: 1rem;
+    line-height: 1.375;
+    margin: 0;
+}
+a {
+    text-decoration: none;
+    cursor: pointer;
+}
+.page__cell {
+    max-width: 1180px;
+    margin: 0 auto;
+}
+.header {
+    display: flex;
+    justify-content: space-between;
+    padding: 1.875rem 0;
+    position: relative;
+}
+.header::before {
+    content: '';
+    display: block;
+    width: 100%;
+    height: 1px;
+    background: #cccccc;
+    position: absolute;
+    bottom: 0;
+}
+.header__contact {
+    display: flex;
+    flex-direction: column;
+}
+.phone {
+    font-weight: 700;
+    font-size: 1.5625rem;
+    color: #000;
+}
+.email {
+    font-weight: 300;
+    color: #808080;
+}
+.end {
+    align-self: flex-end;
+}
+.navigation {
+    display: flex;
+    justify-content: space-around;
+    padding: 1.5625rem 0;
+}
+.nav__link {
+    font-weight: 300;
+    font-size: 1.1875rem;
+    color: #000;
+}
+.nav__link--color {
+    color: #f44336;
 }
