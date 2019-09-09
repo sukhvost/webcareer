@@ -149,3 +149,34 @@ a {
     letter-spacing: 0.1rem;
     color: #fff;
 }
+.advantage {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 3rem;
+}
+.advantage__item {
+    text-align: center;
+    max-width: 27%;
+}
+.icon__circle {
+    background: #ffb9b3;
+    border-radius: 50%;
+    width: 6.25rem;
+    height: 6.25rem;
+    margin: 0 auto;
+    position: relative;
+}
+.advantage__icon {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%)
+}
+.footer {
+    background: #595959;
+    height: 5rem;
+}
+.flex {
+    display: flex;
+    justify-content: flex-end;
+}
