@@ -83,9 +83,6 @@ a {
     background-repeat: no-repeat;
     background-size: cover;
 }
-.slider .owl-dot {
-
-}
 .slider .owl-dot span {
     background: #fff;
     border: 1px solid #cccccc;
@@ -176,7 +173,7 @@ a {
     background: #595959;
     height: 5rem;
 }
-.flex {
-    display: flex;
-    justify-content: flex-end;
+.footer__name {
+    text-align: end;
+    padding: 1.8rem 0;
 }
